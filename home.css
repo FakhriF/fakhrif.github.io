@@ -76,6 +76,12 @@ nav{
 	transition: all ease 0.4s;
 }
 
+.utama-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+}
+
 .utama{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 500px;
