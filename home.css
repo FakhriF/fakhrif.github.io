@@ -78,19 +78,19 @@ nav{
 
 .utama{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 500px;
+    width: 600px;
     position: absolute;
     left: 20%;
     top: 45%;
+	font-size:x-large;
 }
 
 .pic-prof{
-	height: 100%; 
-	width: 30%; 
+	height: 800px; 
 	float: right;
 	object-fit: cover; 
-	top: 10%; 
-	left: 60%;
+	top: 25%; 
+	right: 0%;
 	position: absolute;
 }
 
@@ -130,7 +130,7 @@ nav{
 		float: right;
 		object-fit: cover; 
 		top: 12%; 
-		left: 65%;
+		right: 0%;
 		position: absolute;
 	}
 	
@@ -142,6 +142,7 @@ nav{
 		
 	}
 	.utama{
+		width: 400px;
 		left: 10%;
 		top: 50%;
 		transform: translate(-10%,-50%);
@@ -151,7 +152,7 @@ nav{
 		float: right;
 		object-fit: cover; 
 		top: 20%; 
-		left: 65%;
+		right: 0%;
 		position: absolute;
 	}
 }
@@ -168,11 +169,10 @@ nav{
 		transform: translate(-10%,-50%);
 	}
 	.pic-prof{
-		height: 700px; 
-		width: 300px;
+		height: 550px; 
 		max-width: 100%; 
-		top: 20%; 
-		left: 55%;
+		top: 40%; 
+		right: 0%;
 		position: absolute;
 	}
 }
