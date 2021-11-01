@@ -89,7 +89,7 @@ nav{
 	height: 800px; 
 	float: right;
 	object-fit: cover; 
-	top: 25%; 
+	top: 27%; 
 	right: 0%;
 	position: absolute;
 }
@@ -256,7 +256,11 @@ nav{
 		transform: translate(-10%,-50%);
 	}
 	.pic-prof{
-		height: 0px;
+		height: 200px;
+		top: 80%;
+		object-fit: cover; 
+		right: 0%;
+		position: absolute;
 	}
 	#footer p{
 		left: 16%;
@@ -283,7 +287,11 @@ nav{
 		transform: translate(-10%,-50%);
 	}
 	.pic-prof{
-		height: 0px;
+		height: 200px;
+		top: 80%;
+		object-fit: cover; 
+		right: 0%;
+		position: absolute;
 	}
 	#footer p{
 		left: 12%;
