@@ -12,6 +12,19 @@ a{
     text-decoration: none;
 }
 
+#main-nav{
+    padding:30px 50px;
+	position:relative;
+	width:100%;
+	height: 100vh;
+	box-sizing: border-box;
+	background-size: 1330px;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-image: url("../images/bg.png");
+	background-color: #edf1fd;
+}
+
 nav{
     display:flex;
 	justify-content: space-between;
@@ -41,6 +54,9 @@ nav{
 	font-size: 12px;
 	
 }
+.lang{
+	color:#292929;
+}
 
 .logo{
 	font-size: 25px;
@@ -59,78 +75,12 @@ nav{
 	font-weight: bold;
 	transition: all ease 0.4s;
 }
-
-#aktivitas-1{
-    width:100%;
-	box-sizing: border-box;
-	font-family: calibri;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	padding: 60px 2% 20px 2%;
-    background-color: #edf1fd;
-}
-
-.container-act{
-    top: 10%;
-    width: 90%;
-    height: 75vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-    grid-gap: 13px;
-}
-
-.box-act{
-    background-color: #1f1f1f;
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 2px 2px 13px rgba(0,0,0,0.05);
-    position: relative;
-}
-
-.box-act img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.box-act .overlay-text:hover{
-    display: flex;
-	background-color: #000000;
-}
-
-.overlay-text{
-	font-family: calibri;
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	background-color: rgba(23,209,172,0.80);
-	display:none;
-	
-}
-.overlay-text h1,p{
-	color: #000000;
-}
-.overlay-text h1{
-	font-size: 2.2rem;
-	margin: 0px;
-	padding: 0px;
-	letter-spacing: 2px;
-	
-}
-.overlay-text p{
-	font-size: 1.2rem;
-	margin: 0px;
- 
- 
+.coming-soon{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 500px;
+    position: absolute;
+    left: 13%;
+    top: 45%;
 }
 
 #footer{
