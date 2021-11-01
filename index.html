@@ -1,11 +1,15 @@
 <!DOCTYPE html>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <html>
 <head>
-<title>FakhriF</title>
-<link rel="stylesheet" href="home.css">
-<link rel="shortcut icon" href="images/web-icon.png" type="image/png">
+    <title>FakhriF</title>
+    
+    <link rel="stylesheet" href="home.css">
+    <link rel="shortcut icon" href="images/web-icon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -28,7 +32,7 @@
                 <h1>Fakhri Fadillah</h1>
                 <p>Selamat Datang di Website Saya~! Isi website ini ga jauh dari tentang saya sendiri dan hal-hal random dari kegabutan. Selamat berjelajah!</p>
             </div>
-            <img src="images/faki1.png" style="height: 100%; width: 30%; float: right;object-fit: cover; top: 10%; position: absolute; left: 60%;">
+            <img src="images/faki1.png" class="pic-prof">
         </div>
     </section>
 
@@ -36,4 +40,20 @@
         <p>© 2021 Hak cipta dilindungi undang-undang | Fakhri Fadillah</p>
     </section>
 
-</body>
+</body>  
+
+<script type="text/javascript" src="JQuery3.3.1.js"></script>
+	<script type="text/javascript">
+	
+		  /*Responsive Navigation*/
+	  $(document).ready(function(){
+	 $('.toggle').click(function(){
+		 $('.toggle').toggleClass('active')
+		 
+		 $('nav ul').toggleClass('active-menu')
+		})
+    });
+	
+	</script>
+
+  </html>
