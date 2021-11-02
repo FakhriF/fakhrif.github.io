@@ -189,7 +189,7 @@ nav{
 }
 
 #footer {
-	padding: 15px ;
+	padding: 20px ;
 	position: relative;
 	width: 100%;
 	align-items: center;
@@ -209,7 +209,7 @@ nav{
 
 
 @media (max-width: 768px) {
-	
+
 	nav {
 		display: none;
 	}

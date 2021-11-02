@@ -98,7 +98,7 @@ nav{
 }
 
 #footer{
-    padding:30px 50px;
+    padding:20px;
 	position:relative;
 	width:100%;
 	align-items: center;
@@ -264,16 +264,6 @@ nav{
 		right: 21%;
 		position: absolute;
 	}
-	#footer p{
-		left: 16%;
-		position: absolute;
-		top: 10%;
-		width: 300px;
-		text-align: center;
-		font-size: 15px;
-		font-family: Calibri;
-		color: white;
-	}
 }
 
 @media(max-width:375px){
@@ -297,16 +287,6 @@ nav{
 		right: 20%;
 		position: absolute;
 	}
-	#footer p{
-		left: 12%;
-		position: absolute;
-		top: 10%;
-		width: 300px;
-		text-align: center;
-		font-size: 15px;
-		font-family: Calibri;
-		color: white;
-	}
 }
 
 @media(max-width:320px){
@@ -329,15 +309,5 @@ nav{
 		top: 68%; 
 		right: 13%;
 		position: absolute;
-	}
-	#footer p{
-		left: 5%;
-		position: absolute;
-		top: 10%;
-		width: 300px;
-		text-align: center;
-		font-size: 15px;
-		font-family: Calibri;
-		color: white;
 	}
 }
