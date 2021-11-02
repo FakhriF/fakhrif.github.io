@@ -209,14 +209,15 @@ nav{
 
 
 @media (max-width: 768px) {
+	
 	nav {
 		display: none;
 	}
 
 	.topnav {
+		padding: 2.5vh;
 		display: block;
 		font-family: Calibri;
-		justify-content: space-between;
 		align-items: center;
 		text-transform: uppercase;
 		font-weight: 600;
@@ -232,35 +233,31 @@ nav{
 			display: none;
 		}
 
-		.topnav a {
-			justify-content: space-between;
+		.topnav #myLinks a {
 			color: black;
-			padding: 14px 16px;
+			padding-top: 18px;
 			text-decoration: none;
-			font-size: 17px;
+			font-size: 15px;
 			display: block;
-			opacity: 1.0;
 		}
 
-			.topnav a.icon {
-				display: block;
-				position: absolute;
-				right: 0;
-				top: 0;
-				padding: 20px;
-			}
+		.topnav a.icon {
+			color: #000000;
+			display: block;
+			position: absolute;
+			right: 0%;
+			top: 35%;
+			
+		}
 
-			.topnav a:hover {
-				background-color: black;
-				color: white;
-			}
-
-	.active {
-		color: black;
-		font-size: 35px;
-		font-weight: bold;
-		color: #292929;
+		.logos {
+			top: 15%;
+			left: 5%;
+			color: black;
+			font-size: 23px;
+			font-weight: bold;
 	}
+
 	.kontak-1 {
 		font-size: 18px;
 		font-family: Calibri;
