@@ -2,24 +2,39 @@
 
 <html>
 <head>
-<title>FakhriF | About</title>
-<link rel="stylesheet" href="about.css">
-<link rel="shortcut icon" href="images/web-icon.png" type="image/png">
+    <title>FakhriF | About</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="shortcut icon" href="images/web-icon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
+    <nav class="topnav">
+        <a href="https://fakhrif.github.io/" class="active">FakhriF</a>
+        <div id="myLinks">
+            <a href="https://fakhrif.github.io/">Beranda</a>
+            <a href="https://fakhrif.github.io/about">Tentang</a>
+            <a href="https://fakhrif.github.io/activities">Aktivitas</a>
+            <a href="https://fakhrif.github.io/contact">Kontak Saya</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+
+    <nav>
+        <a href="https://fakhrif.github.io/" class="logo">FAKHRIF</a>
+        <div>
+            <ul class="menu">
+                <li><a href="https://fakhrif.github.io/">Beranda</a></li>
+                <li class="active"><a href="https://fakhrif.github.io/about">Tentang</a></li>
+                <li><a href="https://fakhrif.github.io/activities">Aktivitas</a></li>
+                <li><a href="https://fakhrif.github.io/contact">Kontak Saya</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <section id=main-nav>
-        <nav>
-            <a href="https://fakhrif.github.io/" class="logo">FAKHRIF</a>
-            <div>
-                <ul class="menu">
-                    <li><a href="https://fakhrif.github.io/">Beranda</a></li>
-                    <li class="active"><a href="https://fakhrif.github.io/about">Tentang</a></li>
-                    <li><a href="https://fakhrif.github.io/activities">Aktivitas</a></li>
-                    <li><a href="https://fakhrif.github.io/contact">Kontak Saya</a></li>
-                </ul>
-            </div>
-        </nav>
 
         <div class="about-detail-1">
             <h1 style="font-size: 30px;">Bio</h1>
@@ -41,17 +56,28 @@
     <section id=about2>
         <div class="about-detail-2">
             <h1 style="font-size: 30px;">More Detail</h1>
-            <p>Fakhri Fadillah adalah seorang manusia biasa yang tinggal di negara +62. Sekarang sedang berkuliah di salah satu kampus swasta yang bernama perusahaan BUMN. </p>    
+            <p>Fakhri Fadillah adalah seorang manusia biasa yang tinggal di negara +62. Sekarang sedang berkuliah di salah satu kampus swasta yang bernama perusahaan BUMN. </p>
             <p>Apabila terdapat waktu kosong, kegiatan dia tidak jauh dari melakukan hobinya, tweet sesuatu di Twitter, atau membuat sebuah app / web seperti ini.</p>
         </div>
 
         <img src="images/FChar Mysterious.png" class="foto2" style="pointer-events: none;">
-        
+
     </section>
 
     <section id=footer>
         <p>© 2021 Hak cipta dilindungi undang-undang | Fakhri Fadillah</p>
     </section>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 
 </body>
 </html>
