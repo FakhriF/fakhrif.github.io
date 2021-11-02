@@ -5,20 +5,36 @@
 <title>FakhriF | About</title>
 <link rel="stylesheet" href="activities-home.css">
 <link rel="shortcut icon" href="images/web-icon.png" type="image/png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+
+    <nav class="topnav">
+        <a href="https://fakhrif.github.io/" class="logos">FakhriF</a>
+        <div id="myLinks">
+            <a href="https://fakhrif.github.io/">Beranda</a>
+            <a href="https://fakhrif.github.io/about">Tentang</a>
+            <a href="https://fakhrif.github.io/activities">Aktivitas</a>
+            <a href="https://fakhrif.github.io/contact">Kontak Saya</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+
+    <nav>
+        <a href="https://fakhrif.github.io/" class="logo">FAKHRIF</a>
+        <div>
+            <ul class="menu">
+                <li class="active"><a href="https://fakhrif.github.io/">Beranda</a></li>
+                <li><a href="https://fakhrif.github.io/about">Tentang</a></li>
+                <li><a href="https://fakhrif.github.io/activities">Aktivitas</a></li>
+                <li><a href="https://fakhrif.github.io/contact">Kontak Saya</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <section id=aktivitas-1>
-        <nav>
-            <a href="https://fakhrif.github.io/" class="logo">FAKHRIF</a>
-            <div>
-                <ul class="menu">
-                    <li><a href="https://fakhrif.github.io/">Beranda</a></li>
-                    <li><a href="https://fakhrif.github.io/about">Tentang</a></li>
-                    <li class="active"><a href="https://fakhrif.github.io/activities">Aktivitas</a></li>
-                    <li><a href="https://fakhrif.github.io/contact">Kontak Saya</a></li>
-                </ul>
-            </div>
-        </nav>
 
         <div class="kontak-1">
             <h1 style="font-family: Calibri;">Aktivitas Saya</h1>
@@ -53,6 +69,17 @@
     <section id=footer>
         <p>© 2021 Hak cipta dilindungi undang-undang | Fakhri Fadillah</p>
     </section>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 
 </body>
 </html>
