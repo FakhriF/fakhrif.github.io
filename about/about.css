@@ -42,11 +42,12 @@ nav{
 	left: 0;
 	width:100%;
 	box-sizing: border-box;
-	padding: 5px 50px;
+	padding: 15px 50px;
 	background-color:#F4F7FF;
 	box-shadow:2px 2px 10px rgba(0,0,0,0.05); 
 	z-index: 1;
 }
+
 
 .menu{
 	display: flex;
@@ -54,20 +55,17 @@ nav{
 
 .menu li a{
 	padding: 10px 20px;
-	color:#6c707c;
-	font-size: 12px;
+	color: black;
+	font-size: 15px;
 	
-}
-.lang{
-	color:#292929;
 }
 
 .logo{
-	font-size: 25px;
-	font-weight: bold;
-	color:#292929;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	width: 10%;
+    height: 25%;
+    object-fit: cover;
 }
+
 .toggle{
 	display: none;
 }
