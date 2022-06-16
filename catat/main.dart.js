@@ -38799,7 +38799,7 @@ $S:0}
 A.Zu.prototype={
 $0(){var s=this.b
 if(this.a.c==="Home")A.aM(s,!1).c2(null)
-else A.e4(s,"/home",t.X)},
+else A.e4(s,"/app",t.X)},
 $S:0}
 A.Zv.prototype={
 $0(){var s=this.b
