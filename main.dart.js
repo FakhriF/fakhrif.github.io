@@ -32977,7 +32977,7 @@ A.np.prototype={
 P(a){var s,r=null,q="FakhriF",p=t.w,o=a.K(p).f,n=a.K(p).f.a.a<1440?a.K(p).f.a.b*0.767:a.K(p).f.a.b*0.791,m=a.K(p).f.a.a<650?B.bq:B.ei,l=A.cJ(B.zQ,B.U,B.E,B.y)
 p=a.K(p).f.a.a<650?B.y4:B.y8
 s=t.p
-return A.a43(A.cJ(A.a([B.f5,A.d5(r,A.cJ(A.a([new A.bT(m,l,r),A.mM(new A.bT(p,A.vq(B.dH,A.a([new A.fn(B.eo,"Twitter","@_FakhriF","twitter.com/_FakhriF",r),new A.fn(B.c1,"Youtube",q,u.H,r),new A.fn(B.c1,"Youtube","FakhriF-AMV Edits",u.u,r),new A.fn(B.yx,"Medium",q,"https://fakhrif.medium.com/",r),new A.fn(B.yw,"Github",q,"https://github.com/FakhriF",r)],s),B.dH,20,40),r),r,r)],s),B.U,B.E,B.y),r,r,n,r,r,o.a.a),B.dV],s),B.U,B.E,B.y))}}
+return A.a43(A.cJ(A.a([B.f5,A.d5(r,A.cJ(A.a([new A.bT(m,l,r),A.mM(new A.bT(p,A.vq(B.dH,A.a([new A.fn(B.eo,"Twitter","@_FakhriF","https://twitter.com/_FakhriF",r),new A.fn(B.c1,"Youtube",q,u.H,r),new A.fn(B.c1,"Youtube","FakhriF-AMV Edits",u.u,r),new A.fn(B.yx,"Medium",q,"https://fakhrif.medium.com/",r),new A.fn(B.yw,"Github",q,"https://github.com/FakhriF",r)],s),B.dH,20,40),r),r,r)],s),B.U,B.E,B.y),r,r,n,r,r,o.a.a),B.dV],s),B.U,B.E,B.y))}}
 A.nz.prototype={
 P(a){var s,r=null,q="assets/images/Catat.png",p="PEMBERITAHUAN",o=t.w,n=a.K(o).f.a.a>=1325?a.K(o).f.a.b*0.8:r,m=a.K(o).f
 o=a.K(o).f.a.a<650?B.br:B.kW
