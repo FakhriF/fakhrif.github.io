@@ -33022,14 +33022,14 @@ A.Ys.prototype={
 $0(){A.mv(A.fK(this.a.a.Q,0,null))},
 $S:0}
 A.nq.prototype={
-O(a){var s,r,q,p,o=null,n="FakhriF",m="https://github.com/FakhriF",l=t.w,k=a.F(l).f
-if(a.F(l).f.a.a<1440&&a.F(l).f.a.a>650)s=a.F(l).f.a.b*0.767
-else s=a.F(l).f.a.a<=650?o:a.F(l).f.a.b*0.791
-r=a.F(l).f.a.a<650?B.bq:B.ej
+O(a){var s,r,q,p,o=null,n=t.w,m=a.F(n).f
+if(a.F(n).f.a.a<1440&&a.F(n).f.a.a>650)s=a.F(n).f.a.b*0.767
+else s=a.F(n).f.a.a<=650?o:a.F(n).f.a.b*0.791
+r=a.F(n).f.a.a<650?B.bq:B.ej
 q=A.cy(B.zX,B.U,B.E,B.y)
-l=a.F(l).f.a.a<650?B.y6:B.yc
+n=a.F(n).f.a.a<650?B.y6:B.yc
 p=t.p
-return A.Ug(A.uI(A.cy(A.a([B.ds,A.hA(A.cy(A.a([new A.bT(r,q,o),A.kK(new A.bT(l,A.vu(B.dJ,A.a([new A.dL(B.ep,"Twitter","@_FakhriF","https://twitter.com/_FakhriF",o),new A.dL(B.c2,"Youtube",n,u.H,o),new A.dL(B.c2,"Youtube","FakhriF-AMV Edits",u.u,o),new A.dL(B.yD,"Medium",n,"https://fakhrif.medium.com/",o),new A.dL(B.yA,"Github",n,m,o),new A.dL(B.yE,"Spotify Podcast","F Podcast",m,o),new A.dL(B.yC,"Ko-fi","FakhriF Ko-fi Page","https://ko-fi.com/fakhrif",o),new A.dL(B.yB,"Trakteer","FakhriF Trakteer Tip","https://trakteer.id/fakhrif/tip",o)],p),B.dJ,20,40),o),o,o)],p),B.U,B.E,B.y),s,k.a.a),B.cH],p),B.U,B.E,B.y),B.a3))}}
+return A.Ug(A.uI(A.cy(A.a([B.ds,A.hA(A.cy(A.a([new A.bT(r,q,o),A.kK(new A.bT(n,A.vu(B.dJ,A.a([new A.dL(B.ep,"Twitter","@_FakhriF","https://twitter.com/_FakhriF",o),new A.dL(B.c2,"Youtube","FakhriF",u.H,o),new A.dL(B.c2,"Youtube","FakhriF-AMV Edits",u.u,o),new A.dL(B.yD,"Medium","Fakhri Fadillah","https://fakhrif.medium.com/",o),new A.dL(B.yA,"Github","FakhriF","https://github.com/FakhriF",o),new A.dL(B.yE,"Spotify Podcast","F Podcast","https://open.spotify.com/show/2eoDQSPjgNP1dxTVV3skIr",o),new A.dL(B.yC,"Ko-fi","FakhriF Ko-fi Page","https://ko-fi.com/fakhrif",o),new A.dL(B.yB,"Trakteer","FakhriF Trakteer Tip","https://trakteer.id/fakhrif/tip",o)],p),B.dJ,20,40),o),o,o)],p),B.U,B.E,B.y),s,m.a.a),B.cH],p),B.U,B.E,B.y),B.a3))}}
 A.nB.prototype={
 O(a){var s,r=null,q="assets/images/Catat.png",p="PEMBERITAHUAN",o=t.w,n=a.F(o).f.a.a>=1325?a.F(o).f.a.b*0.8:r,m=a.F(o).f
 o=a.F(o).f.a.a<650?B.br:B.kY
