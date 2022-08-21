@@ -3,8 +3,10 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "374705725b4d9bf41b1f5bb6b319dd4f",
+  "assets/AssetManifest.json": "b98336598b5d0500b88f61b75e62ba4b",
 "assets/assets/images/Catat.png": "c8daadea7fbb670268774ec9c334e7ad",
+"assets/assets/images/Faki-17an(2).png": "ee47f400a2e60b8c6d9a223b5ea4d306",
+"assets/assets/images/Logo%2520FakhriF%2520Wh.png": "0e644045f8059e3f44aae72afe2f0515",
 "assets/assets/images/Logo%2520FakhriF.png": "523c829380b27eb4937b520ec78390fc",
 "assets/assets/images/NF.png": "97902c3a2dfc842d758f9404a4891562",
 "assets/assets/images/WJG.png": "06f5a96ed12c2841700279ab268af011",
@@ -23,9 +25,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "4bb84f0a2f2c5676ae5fcfde19684724",
-"/": "4bb84f0a2f2c5676ae5fcfde19684724",
-"main.dart.js": "2e7e6cda594909b977e07ebf84131e7a",
+"index.html": "cb1198603a009301c0543d1c327710be",
+"/": "cb1198603a009301c0543d1c327710be",
+"main.dart.js": "39e2e331dc04eecac64c04dca3228d04",
 "manifest.json": "8bb5494b734f159c5b9bf6ec6e76ffae",
 "version.json": "939ac582503deabc79a8b7dd16571aa7"
 };
